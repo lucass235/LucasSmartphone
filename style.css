@@ -26,11 +26,6 @@ img {
   height: auto;
 }
 /*----------------------------BASE-------------------*/
-.title {
-  color: var(--color);
-  font: 700 var(--title-font-size) var(--title-font);
-  -webkit-font-smoothing: antialiased;
-}
 
 html {
   scroll-behavior: smooth;
@@ -41,6 +36,12 @@ body {
   font: 400 1rem var(--body-font);
   color: rgb(0, 0, 0);
   -webkit-font-smoothing: antialiased;
+}
+
+.title {
+  color: var(--color);
+  font: 700 var(--title-font-size) var(--title-font);
+  -webkit-font-smoothing: auto;
 }
 
 .button {
@@ -177,14 +178,6 @@ a {
 
 #header.scroll {
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
-}
-
-#header.scroll .logo span {
-  color: rgb(4, 0, 255);
-}
-
-#header.scroll .icon-menu {
-  color: blue;
 }
 
 /* ----------------------LOGO------------------------*/
@@ -344,9 +337,8 @@ nav.show .icon-close {
   margin-right: 1.5rem;
 }
 
-/*------------------ABOUT----------------------*/
-.card,
-grid {
+/*------------------services----------------------*/
+.card.grid {
   gap: 1.5rem;
 }
 
@@ -365,7 +357,7 @@ grid {
   color: rebeccapurple;
 }
 
-.card title {
+.card .title {
   font-size: 1.5rem;
   margin-bottom: 0.75rem;
 }
@@ -374,6 +366,17 @@ grid {
 
 #testimonials {
   background: white;
+}
+
+#testimonials .container {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#testimonials header {
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  margin-bottom: 0;
 }
 
 #testimonials blockquote {
@@ -412,22 +415,16 @@ grid {
   margin-right: 0.5rem;
 }
 
-#testimonials header {
-  margin-right: 1.5rem;
-  margin-left: 1.5rem;
-  margin-bottom: 0;
-}
-
-#testimonials .container {
-  margin-left: 0;
-  margin-right: 0;
-}
-
 /*--------------Swiper-----------*/
 
 .swiper-slide {
   height: auto;
   padding: 4rem 1rem;
+}
+
+.swiper-pagination-bullet {
+  width: 0.75rem;
+  height: 0.75rem;
 }
 
 .swiper-pagination-bullet-active {
