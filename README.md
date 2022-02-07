@@ -26,6 +26,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Abra o projeto no VsCode
 - Entre no `lucass235/Lucas_smartphone /`
 - Clique no Play para executar
+- ou entre nesse [link](https://nifty-goodall-09ce2b.netlify.app/#home)
 
 ## 👨‍👦‍👦 COLABORADORES
 
